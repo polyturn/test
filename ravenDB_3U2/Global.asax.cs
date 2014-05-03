@@ -15,6 +15,7 @@ namespace ravenDB_3U2
         public static DocumentStore MyStore;
         protected void Application_Start()
         {
+            // test 3
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
